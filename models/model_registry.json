@@ -1,0 +1,244 @@
+{
+  "production": {
+    "classification": {
+      "model_name": "Gradient Boosting Classifier",
+      "model_file": "best_classification_model.joblib",
+      "version": "1.2.0",
+      "metrics": {
+        "accuracy": 0.991,
+        "precision_macro": 0.9857976911859542,
+        "recall_macro": 0.9873557395819067,
+        "f1_macro": 0.9865726863024511,
+        "roc_auc_ovr": 0.9997686779364807,
+        "training_time_sec": 1.85
+      },
+      "promoted_at": "2026-10-20T21:30:22.386829"
+    },
+    "regression": {
+      "model_name": "Gradient Boosting Regressor",
+      "model_file": "best_regression_model.joblib",
+      "version": "1.1.0",
+      "metrics": {
+        "rmse": 341.7023593145137,
+        "mae": 106.47073285811571,
+        "r2_score": 0.9990455922610555,
+        "mape": 0.010668880161583634,
+        "training_time_sec": 0.6
+      },
+      "promoted_at": "2026-10-20T21:30:27.597773"
+    }
+  },
+  "experiments_history": [
+    {
+      "run_id": "run_logistic_regression_1792531769",
+      "experiment": "EMIPredict_AI_Eligibility_Classification",
+      "model_name": "Logistic Regression",
+      "params": {
+        "solver": "lbfgs",
+        "C": 1.0,
+        "max_iter": 1000
+      },
+      "metrics": {
+        "accuracy": 0.892,
+        "precision_macro": 0.8194655499228506,
+        "recall_macro": 0.8094031270486503,
+        "f1_macro": 0.8143171217619081,
+        "roc_auc_ovr": 0.9706586372816538,
+        "training_time_sec": 0.58
+      },
+      "tags": {
+        "algorithm": "Logistic Regression",
+        "task": "classification",
+        "framework": "scikit-learn"
+      },
+      "timestamp": "2026-10-20T21:29:29.127271"
+    },
+    {
+      "run_id": "run_random_forest_classifier_1792531769",
+      "experiment": "EMIPredict_AI_Eligibility_Classification",
+      "model_name": "Random Forest Classifier",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 16,
+        "criterion": "gini"
+      },
+      "metrics": {
+        "accuracy": 0.9723333333333334,
+        "precision_macro": 0.9588995043580022,
+        "recall_macro": 0.9514407360983919,
+        "f1_macro": 0.954955544661182,
+        "roc_auc_ovr": 0.9980634892040025,
+        "training_time_sec": 0.56
+      },
+      "tags": {
+        "algorithm": "Random Forest Classifier",
+        "task": "classification",
+        "framework": "scikit-learn"
+      },
+      "timestamp": "2026-10-20T21:29:29.769045"
+    },
+    {
+      "run_id": "run_gradient_boosting_classifier_1792531771",
+      "experiment": "EMIPredict_AI_Eligibility_Classification",
+      "model_name": "Gradient Boosting Classifier",
+      "params": {
+        "max_iter": 150,
+        "learning_rate": 0.08,
+        "max_depth": 12
+      },
+      "metrics": {
+        "accuracy": 0.991,
+        "precision_macro": 0.9857976911859542,
+        "recall_macro": 0.9873557395819067,
+        "f1_macro": 0.9865726863024511,
+        "roc_auc_ovr": 0.9997686779364807,
+        "training_time_sec": 1.91
+      },
+      "tags": {
+        "algorithm": "Gradient Boosting Classifier",
+        "task": "classification",
+        "framework": "scikit-learn"
+      },
+      "timestamp": "2026-10-20T21:29:31.779304"
+    },
+    {
+      "run_id": "run_logistic_regression_1792531819",
+      "experiment": "EMIPredict_AI_Eligibility_Classification",
+      "model_name": "Logistic Regression",
+      "params": {
+        "solver": "lbfgs",
+        "C": 1.0,
+        "max_iter": 1000
+      },
+      "metrics": {
+        "accuracy": 0.892,
+        "precision_macro": 0.8194655499228506,
+        "recall_macro": 0.8094031270486503,
+        "f1_macro": 0.8143171217619081,
+        "roc_auc_ovr": 0.9706586372816538,
+        "training_time_sec": 0.61
+      },
+      "tags": {
+        "algorithm": "Logistic Regression",
+        "task": "classification",
+        "framework": "scikit-learn"
+      },
+      "timestamp": "2026-10-20T21:30:19.636950"
+    },
+    {
+      "run_id": "run_random_forest_classifier_1792531820",
+      "experiment": "EMIPredict_AI_Eligibility_Classification",
+      "model_name": "Random Forest Classifier",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 16,
+        "criterion": "gini"
+      },
+      "metrics": {
+        "accuracy": 0.9723333333333334,
+        "precision_macro": 0.9588995043580022,
+        "recall_macro": 0.9514407360983919,
+        "f1_macro": 0.954955544661182,
+        "roc_auc_ovr": 0.9980634892040025,
+        "training_time_sec": 0.54
+      },
+      "tags": {
+        "algorithm": "Random Forest Classifier",
+        "task": "classification",
+        "framework": "scikit-learn"
+      },
+      "timestamp": "2026-10-20T21:30:20.258383"
+    },
+    {
+      "run_id": "run_gradient_boosting_classifier_1792531822",
+      "experiment": "EMIPredict_AI_Eligibility_Classification",
+      "model_name": "Gradient Boosting Classifier",
+      "params": {
+        "max_iter": 150,
+        "learning_rate": 0.08,
+        "max_depth": 12
+      },
+      "metrics": {
+        "accuracy": 0.991,
+        "precision_macro": 0.9857976911859542,
+        "recall_macro": 0.9873557395819067,
+        "f1_macro": 0.9865726863024511,
+        "roc_auc_ovr": 0.9997686779364807,
+        "training_time_sec": 1.85
+      },
+      "tags": {
+        "algorithm": "Gradient Boosting Classifier",
+        "task": "classification",
+        "framework": "scikit-learn"
+      },
+      "timestamp": "2026-10-20T21:30:22.203352"
+    },
+    {
+      "run_id": "run_ridge_linear_regression_1792531822",
+      "experiment": "EMIPredict_AI_Max_EMI_Regression",
+      "model_name": "Ridge Linear Regression",
+      "params": {
+        "alpha": 1.0,
+        "solver": "auto"
+      },
+      "metrics": {
+        "rmse": 2469.4346957407515,
+        "mae": 1851.6298758853507,
+        "r2_score": 0.950153681425831,
+        "mape": 1.2073940154445881,
+        "training_time_sec": 0.01
+      },
+      "tags": {
+        "algorithm": "Ridge Linear Regression",
+        "task": "regression",
+        "framework": "scikit-learn"
+      },
+      "timestamp": "2026-10-20T21:30:22.403320"
+    },
+    {
+      "run_id": "run_random_forest_regressor_1792531826",
+      "experiment": "EMIPredict_AI_Max_EMI_Regression",
+      "model_name": "Random Forest Regressor",
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 16
+      },
+      "metrics": {
+        "rmse": 491.8954943463796,
+        "mae": 117.95603480771261,
+        "r2_score": 0.9980221940165976,
+        "mape": 0.0084179572689367,
+        "training_time_sec": 4.36
+      },
+      "tags": {
+        "algorithm": "Random Forest Regressor",
+        "task": "regression",
+        "framework": "scikit-learn"
+      },
+      "timestamp": "2026-10-20T21:30:26.821123"
+    },
+    {
+      "run_id": "run_gradient_boosting_regressor_1792531827",
+      "experiment": "EMIPredict_AI_Max_EMI_Regression",
+      "model_name": "Gradient Boosting Regressor",
+      "params": {
+        "max_iter": 150,
+        "learning_rate": 0.08,
+        "max_depth": 12
+      },
+      "metrics": {
+        "rmse": 341.7023593145137,
+        "mae": 106.47073285811571,
+        "r2_score": 0.9990455922610555,
+        "mape": 0.010668880161583634,
+        "training_time_sec": 0.6
+      },
+      "tags": {
+        "algorithm": "Gradient Boosting Regressor",
+        "task": "regression",
+        "framework": "scikit-learn"
+      },
+      "timestamp": "2026-10-20T21:30:27.491427"
+    }
+  ]
+}

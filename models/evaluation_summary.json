@@ -1,0 +1,63 @@
+{
+  "status": "success",
+  "timestamp": "2026-10-20T21:30:27.598923",
+  "classification": {
+    "best_model": "Gradient Boosting Classifier",
+    "accuracy": 0.991,
+    "meets_target": true,
+    "all_models": {
+      "Logistic Regression": {
+        "accuracy": 0.892,
+        "precision_macro": 0.8194655499228506,
+        "recall_macro": 0.8094031270486503,
+        "f1_macro": 0.8143171217619081,
+        "roc_auc_ovr": 0.9706586372816538,
+        "training_time_sec": 0.61
+      },
+      "Random Forest Classifier": {
+        "accuracy": 0.9723333333333334,
+        "precision_macro": 0.9588995043580022,
+        "recall_macro": 0.9514407360983919,
+        "f1_macro": 0.954955544661182,
+        "roc_auc_ovr": 0.9980634892040025,
+        "training_time_sec": 0.54
+      },
+      "Gradient Boosting Classifier": {
+        "accuracy": 0.991,
+        "precision_macro": 0.9857976911859542,
+        "recall_macro": 0.9873557395819067,
+        "f1_macro": 0.9865726863024511,
+        "roc_auc_ovr": 0.9997686779364807,
+        "training_time_sec": 1.85
+      }
+    }
+  },
+  "regression": {
+    "best_model": "Gradient Boosting Regressor",
+    "rmse": 341.7023593145137,
+    "meets_target": true,
+    "all_models": {
+      "Ridge Linear Regression": {
+        "rmse": 2469.4346957407515,
+        "mae": 1851.6298758853507,
+        "r2_score": 0.950153681425831,
+        "mape": 1.2073940154445881,
+        "training_time_sec": 0.01
+      },
+      "Random Forest Regressor": {
+        "rmse": 491.8954943463796,
+        "mae": 117.95603480771261,
+        "r2_score": 0.9980221940165976,
+        "mape": 0.0084179572689367,
+        "training_time_sec": 4.36
+      },
+      "Gradient Boosting Regressor": {
+        "rmse": 341.7023593145137,
+        "mae": 106.47073285811571,
+        "r2_score": 0.9990455922610555,
+        "mape": 0.010668880161583634,
+        "training_time_sec": 0.6
+      }
+    }
+  }
+}
