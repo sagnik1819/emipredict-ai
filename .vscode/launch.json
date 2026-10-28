@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "🚀 Run EMIPredict AI (Streamlit)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "streamlit",
+      "args": [
+        "run",
+        "${workspaceFolder}/app.py",
+        "--server.port=8501"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "🧪 Run Unit Tests",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "unittest",
+      "args": [
+        "tests/test_pipeline.py"
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
+}
