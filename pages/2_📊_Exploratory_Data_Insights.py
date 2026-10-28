@@ -141,7 +141,6 @@ with tab2:
                 color="emi_eligibility",
                 opacity=0.6,
                 color_discrete_map={"Eligible": "#10B981", "High_Risk": "#F59E0B", "Not_Eligible": "#EF4444"},
-                trendline="ols",
                 title="Borrower Salary vs. Algorithmic Max Safe EMI Cap"
             )
             fig3.update_layout(template="plotly_dark", height=380, margin=dict(l=10, r=10, t=40, b=10))
